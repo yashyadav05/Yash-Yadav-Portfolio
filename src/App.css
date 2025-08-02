@@ -1,0 +1,14 @@
+#root {
+  min-height: 100vh;
+  margin: 0 auto;
+
+  text-align: center;
+  background-color: #080808;
+  --primary-color: #34D399 ;
+padding-left: 1rem;
+padding-right: 1rem;
+  --secondary-color: #9c9c9c;
+  --nav-bg-color: #1b1b1b;
+  --lite-primary-color: #408e0015;
+  --dark-primary-color:#2d6400;
+}
