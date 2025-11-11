@@ -89,7 +89,7 @@ const Projects = () => {
                 icon:Icons.imagekiticon
             }
             ],
-            liveLink: 'https://plate-pal-virid.vercel.app/',
+            liveLink: 'https://plate-pal-ten.vercel.app/',
             githubLink: 'https://github.com/yashyadav05/PlatePal'
 
         },
