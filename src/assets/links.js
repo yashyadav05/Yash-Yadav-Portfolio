@@ -3,5 +3,5 @@ export const links={
     linkedin:'https://www.linkedin.com/in/yashdevarch90/',
     x:'https://x.com/ByteMasterYash',
     github:'https://github.com/yashyadav05',
-    resume:'https://drive.google.com/file/d/13MnWr0kjzNVXYg82p5tx_6XZKZoDHqWI/view?usp=sharing'
+    resume:'https://drive.google.com/file/d/1eEIIefex-S-H7C2mEhrXN66XU-kmSkw0/view?usp=sharing'
 }

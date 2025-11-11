@@ -1,5 +1,5 @@
 import React from 'react'
-import profileImage from '../assets/images/Snapchat-462612369.jpg'
+import profileImage from '../assets/images/WhatsApp Image 2025-08-15 at 11.23.06_1d54d716.jpg'
 import { Link } from 'react-scroll'
 import { links } from '../assets/links'
 
