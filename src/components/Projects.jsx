@@ -1,17 +1,85 @@
 
 import Heading from './Heading'
-
-import booklyPreviwImage from '../assets/images/booklyPreview.png'
-import quickLinkPreviewImage from '../assets/images/quicklinkPreview.png'
 import PlatePal from '../assets/images/PlatePal.png'
-import techmartPreviewImage from '../assets/images/techmartPreview.png'
 import NeuraBlog from '../assets/images/NeuraBlog.png'
 import { VideoPlayer } from './VideoPlayer'
 import { Icons } from '../assets/Data/Icons.js'
-import konvoPreviewImage from '../assets/images/konvoPreview.png'
+import StudyNotion from '../assets/images/Screenshot 2026-09-24 194120.png'
+import CollaborativeCompiler from '../assets/images/Screenshot 2026-09-24 194057.png'
 
 const Projects = () => {
     const projects = [
+                {
+    title: 'StudyNotion',
+    description: 'StudyNotion is a full-stack online learning platform that connects students and instructors through an interactive course management system. Built with the MERN stack, it enables instructors to create and manage courses while students can explore courses, track their learning progress, and access educational content through a seamless interface.',
+    previewImage: StudyNotion,
+    techstack: [
+        {
+            name: "React",
+            icon: Icons.reactIcon
+        },
+        {
+            name: "JavaScript",
+            icon: Icons.jsIcon
+        },
+        {
+            name: "Node",
+            icon: Icons.nodeIcon
+        },
+        {
+            name: "Express",
+            icon: Icons.expressIcon
+        },
+        {
+            name: "MongoDB",
+            icon: Icons.mongodbIcon
+        },
+        {
+            name: "Redux",
+            icon: Icons.reduxIcon
+        },
+        {
+            name: "Tailwind",
+            icon: Icons.tailwindtIcon
+        },
+        {
+            name: "CSS",
+            icon: Icons.cssIcon
+        }
+    ],
+    githubLink: 'https://github.com/yashyadav05/StudyNotion',
+    liveLink: 'https://yashyadav-studynotion.vercel.app/'
+},
+
+{
+    title: 'Collaborative Compiler',
+    description: 'Collaborative Compiler is a real-time online code editor that allows multiple users to collaborate and write code together. Built with modern web technologies, it combines the Monaco Editor with WebSockets for real-time synchronization and Judge0 for secure code execution across multiple programming languages.',
+    previewImage: CollaborativeCompiler,
+    techstack: [
+        {
+            name: "React",
+            icon: Icons.reactIcon
+        },
+        {
+            name: "JavaScript",
+            icon: Icons.jsIcon
+        },
+        {
+            name: "Node",
+            icon: Icons.nodeIcon
+        },
+        {
+            name: "Express",
+            icon: Icons.expressIcon
+        },
+        {
+            name: "Tailwind",
+            icon: Icons.tailwindtIcon
+        },
+    ],
+    githubLink: 'https://github.com/yashyadav05/collaborative-Compiler',
+    liveLink: 'https://yash-collabrative-compiler.vercel.app/'
+},
         {
             title: 'NeuraBlog',
             description: 'NeuraeBlog is a cutting-edge blogging platform that combines the power of artificial intelligence with intuitive user experience to create the ultimate content creation tool. Built with modern web technologies, this platform empowers writers, content creators, and businesses to produce high-quality blog content with AI-driven assistance.',
